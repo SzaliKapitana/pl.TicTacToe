@@ -9,11 +9,13 @@ public class Frame extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(300, 400);
         setLocation(1000, 100);
-        setVisible(true);
+        
 
-        new Buttons();
+        
         JPanel buttonPanel = new Buttons();
         add(buttonPanel);
+
+        
         setVisible(true);
     }
 
