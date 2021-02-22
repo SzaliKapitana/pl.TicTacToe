@@ -15,7 +15,7 @@ public class Buttons extends JPanel implements ActionListener {
             button[i] = new JButton("");
             button[i].addActionListener(this);
             add(button[i]);
-
+            button[i].setBackground(Color.WHITE);
         }
         reset = new JButton("RESET");
         reset.addActionListener(this);
@@ -48,15 +48,10 @@ public class Buttons extends JPanel implements ActionListener {
             if(source.equals(button[i])){
                 button[i].setText(symbol);
                 button[i].setEnabled(false);
+                
             }
         }
-
-
-
+        
     }
-
-   
   
-
-    
 }
