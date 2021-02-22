@@ -139,7 +139,7 @@ public class Buttons extends JPanel implements ActionListener {
             ch[i] = button[i].getText();
             id[i] = i;
         }
-          if(ch[1].equals(ch[4]) && ch[4].equals(ch[7]) && ch[2] != ""){
+          if(ch[1].equals(ch[4]) && ch[4].equals(ch[7]) && ch[1] != ""){
             button[id[1]].setBackground(Color.GREEN);
             button[id[4]].setBackground(Color.GREEN);
             button[id[7]].setBackground(Color.GREEN);
