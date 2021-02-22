@@ -67,6 +67,9 @@ public class Buttons extends JPanel implements ActionListener {
           button[id[0]].setBackground(Color.GREEN);
           button[id[1]].setBackground(Color.GREEN);
           button[id[2]].setBackground(Color.GREEN);
+          for (int i = 0; i < button.length; i++){
+            button[i].setEnabled(false);
+          }
         }
 
         for(int i = 3;i < 6; i++){
@@ -77,6 +80,9 @@ public class Buttons extends JPanel implements ActionListener {
             button[id[3]].setBackground(Color.GREEN);
             button[id[4]].setBackground(Color.GREEN);
             button[id[5]].setBackground(Color.GREEN);
+            for (int i = 0; i < button.length; i++){
+                button[i].setEnabled(false);
+              }
         }
 
         for(int i = 6;i < 9; i++){
@@ -87,6 +93,9 @@ public class Buttons extends JPanel implements ActionListener {
             button[id[6]].setBackground(Color.GREEN);
             button[id[7]].setBackground(Color.GREEN);
             button[id[8]].setBackground(Color.GREEN);
+            for (int i = 0; i < button.length; i++){
+                button[i].setEnabled(false);
+              }
         }
 
         for(int i = 0;i < 9; i++){
@@ -97,6 +106,9 @@ public class Buttons extends JPanel implements ActionListener {
             button[id[0]].setBackground(Color.GREEN);
             button[id[4]].setBackground(Color.GREEN);
             button[id[8]].setBackground(Color.GREEN);
+            for (int i = 0; i < button.length; i++){
+                button[i].setEnabled(false);
+              }
         }
 
         for(int i = 0;i < 9; i++){
@@ -107,6 +119,9 @@ public class Buttons extends JPanel implements ActionListener {
             button[id[2]].setBackground(Color.GREEN);
             button[id[4]].setBackground(Color.GREEN);
             button[id[6]].setBackground(Color.GREEN);
+            for (int i = 0; i < button.length; i++){
+                button[i].setEnabled(false);
+              }
         }
 
 
