@@ -59,7 +59,8 @@ public class Buttons extends JPanel implements ActionListener {
     public void checkResult(){
         String[] ch = new String[9];
         int[] id = new int[9];
-        for(int i = 0; i < 3; i++){
+
+        for(int i = 0;i < 9; i++){
           ch[i] = button[i].getText();
           id[i] = i;
         }
@@ -72,7 +73,7 @@ public class Buttons extends JPanel implements ActionListener {
           }
         }
 
-        for(int i = 3;i < 6; i++){
+        for(int i = 0;i < 9; i++){
             ch[i] = button[i].getText();
             id[i] = i;
         }
@@ -85,7 +86,7 @@ public class Buttons extends JPanel implements ActionListener {
               }
         }
 
-        for(int i = 6;i < 9; i++){
+        for(int i = 0;i < 9; i++){
             ch[i] = button[i].getText();
             id[i] = i;
         }
