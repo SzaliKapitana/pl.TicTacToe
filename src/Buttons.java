@@ -57,114 +57,105 @@ public class Buttons extends JPanel implements ActionListener {
     }
 
     public void checkResult(){
+
         String[] ch = new String[9];
         int[] id = new int[9];
 
         for(int i = 0;i < 9; i++){
-          ch[i] = button[i].getText();
-          id[i] = i;
+            ch[i] = button[i].getText();
+            id[i] = i;
         }
         if(ch[0].equals(ch[1]) && ch[1].equals(ch[2]) && ch[0] != ""){
-          button[id[0]].setBackground(Color.GREEN);
-          button[id[1]].setBackground(Color.GREEN);
-          button[id[2]].setBackground(Color.GREEN);
-          for (int i = 0; i < button.length; i++){
-            button[i].setEnabled(false);
-          }
-        }
-
-        for(int i = 0;i < 9; i++){
-            ch[i] = button[i].getText();
-            id[i] = i;
-        }
-          if(ch[3].equals(ch[4]) && ch[4].equals(ch[5]) && ch[3] != ""){
-            button[id[3]].setBackground(Color.GREEN);
-            button[id[4]].setBackground(Color.GREEN);
-            button[id[5]].setBackground(Color.GREEN);
+                button[id[0]].setBackground(Color.GREEN);
+                button[id[1]].setBackground(Color.GREEN);
+                button[id[2]].setBackground(Color.GREEN);
             for (int i = 0; i < button.length; i++){
                 button[i].setEnabled(false);
-              }
+            }
         }
-
+        for(int i = 0;i < 9; i++){
+              ch[i] = button[i].getText();
+              id[i] = i;
+        }
+        if(ch[3].equals(ch[4]) && ch[4].equals(ch[5]) && ch[3] != ""){
+                button[id[3]].setBackground(Color.GREEN);
+                button[id[4]].setBackground(Color.GREEN);
+                button[id[5]].setBackground(Color.GREEN);
+            for (int i = 0; i < button.length; i++){
+                button[i].setEnabled(false);
+            }
+        }
         for(int i = 0;i < 9; i++){
             ch[i] = button[i].getText();
             id[i] = i;
         }
-          if(ch[6].equals(ch[7]) && ch[7].equals(ch[8]) && ch[6] != ""){
+        if(ch[6].equals(ch[7]) && ch[7].equals(ch[8]) && ch[6] != ""){
             button[id[6]].setBackground(Color.GREEN);
             button[id[7]].setBackground(Color.GREEN);
             button[id[8]].setBackground(Color.GREEN);
             for (int i = 0; i < button.length; i++){
                 button[i].setEnabled(false);
-              }
+            }
         }
-
         for(int i = 0;i < 9; i++){
             ch[i] = button[i].getText();
             id[i] = i;
         }
-          if(ch[0].equals(ch[4]) && ch[4].equals(ch[8]) && ch[0] != ""){
+        if(ch[0].equals(ch[4]) && ch[4].equals(ch[8]) && ch[0] != ""){
             button[id[0]].setBackground(Color.GREEN);
             button[id[4]].setBackground(Color.GREEN);
             button[id[8]].setBackground(Color.GREEN);
             for (int i = 0; i < button.length; i++){
                 button[i].setEnabled(false);
-              }
-        }
-
+            }
+        } 
         for(int i = 0;i < 9; i++){
             ch[i] = button[i].getText();
             id[i] = i;
         }
-          if(ch[2].equals(ch[4]) && ch[4].equals(ch[6]) && ch[2] != ""){
+        if(ch[2].equals(ch[4]) && ch[4].equals(ch[6]) && ch[2] != ""){
             button[id[2]].setBackground(Color.GREEN);
             button[id[4]].setBackground(Color.GREEN);
             button[id[6]].setBackground(Color.GREEN);
             for (int i = 0; i < button.length; i++){
                 button[i].setEnabled(false);
-              }
+            }
         }
         for(int i = 0;i < 9; i++){
             ch[i] = button[i].getText();
             id[i] = i;
         }
-          if(ch[0].equals(ch[3]) && ch[3].equals(ch[6]) && ch[0] != ""){
+        if(ch[0].equals(ch[3]) && ch[3].equals(ch[6]) && ch[0] != ""){
             button[id[0]].setBackground(Color.GREEN);
             button[id[3]].setBackground(Color.GREEN);
             button[id[6]].setBackground(Color.GREEN);
             for (int i = 0; i < button.length; i++){
                 button[i].setEnabled(false);
-              }
+            }
         }
         for(int i = 0;i < 9; i++){
             ch[i] = button[i].getText();
             id[i] = i;
         }
-          if(ch[1].equals(ch[4]) && ch[4].equals(ch[7]) && ch[1] != ""){
+        if(ch[1].equals(ch[4]) && ch[4].equals(ch[7]) && ch[1] != ""){
             button[id[1]].setBackground(Color.GREEN);
             button[id[4]].setBackground(Color.GREEN);
             button[id[7]].setBackground(Color.GREEN);
             for (int i = 0; i < button.length; i++){
                 button[i].setEnabled(false);
-              }
-        }
+            }
+        } 
         for(int i = 0;i < 9; i++){
             ch[i] = button[i].getText();
             id[i] = i;
-        }
-          if(ch[2].equals(ch[5]) && ch[5].equals(ch[8]) && ch[2] != ""){
+        } 
+        if(ch[2].equals(ch[5]) && ch[5].equals(ch[8]) && ch[2] != ""){
             button[id[2]].setBackground(Color.GREEN);
             button[id[5]].setBackground(Color.GREEN);
             button[id[8]].setBackground(Color.GREEN);
             for (int i = 0; i < button.length; i++){
                 button[i].setEnabled(false);
-              }
-        }
-
-
-
-    
-    }
-
-  
+            }
+        }  
+    } 
 }
